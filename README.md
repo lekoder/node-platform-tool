@@ -10,12 +10,12 @@ directories, without need to track platform-specific system requirements.
 
 #Quick start
 
-    npm install node-platform
+    npm install platform-tool
     
 Then
 
 ```js
-var platform = require('platform-tools');
+var platform = require('platform-tool');
 ```
 
 #API
