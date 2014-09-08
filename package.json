@@ -1,6 +1,6 @@
 {
     "name": "platform-tool",
     "description": "Provides various platform-specific information to application, helping cross-system portability",
-    "version": "0.0.1",
+    "version": "0.2",
     "main": "platform-tool.js"
 }
