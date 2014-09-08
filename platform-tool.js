@@ -2,7 +2,7 @@ var os   = require('os'),
     path = require('path');
 
 function homeDir() {
-    return process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
+    return process.env.HOME || ( process.env.HOMEDRIVE + process.env.HOMEPATH ) || process.env.USERPROFILE;
 }
 
 // @Todo: check if directory is writeable/usable
