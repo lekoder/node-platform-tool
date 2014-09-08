@@ -1,6 +1,11 @@
 {
     "name": "platform-tool",
     "description": "Provides various platform-specific information to application, helping cross-system portability",
-    "version": "0.2",
-    "main": "platform-tool.js"
+    "version": "0.2.0",
+    "main": "platform-tool.js",
+    "repository" :
+    {
+       "type" : "git",
+       "url"  : "https://github.com/lekoder/node-platform-tool.git"
+    }
 }
